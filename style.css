@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    height: 500px;
+    background-color: darkblue;
+}
+.header_top {
+    height: 100px;
+    background-color: yellow;
+}
+.header_bottom {
+    height: 400px;
+    background-color: red;
+}
+.sidebar_left {
+    width: 60%;
+    background-color: green;
+    height: 100px;
+    display: inline-block;
+
+}
+.sidebar_right {
+    width: 39%;
+    background-color: grey;
+    height: 100px;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 11px;
+    color: #fff;
+}
