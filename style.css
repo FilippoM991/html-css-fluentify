@@ -6,26 +6,91 @@
 header {
     background-color: #0D325A;
     height: 400px;
+    position: relative;
 }
 .container {
     width: 80%;
     height: 400px;
     margin: 0 auto;
-    background-color: red;
 }
 .header_top {
     height: 80px;
-    background-color: yellow;
 }
 .left {
-    width: 60%;
     height: 80px;
-    background-color: green;
     float: left;
+    line-height: 80px;
 }
 .right {
-    width: 40%;
     height: 80px;
-    background-color: grey;
     float: right;
+}
+.logo {
+    float:left;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+.main_menu {
+    float: left;
+}
+.main_menu ul {
+    list-style-type: none;
+}
+.main_menu ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.main_menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.clicca_qui {
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+}
+#tutor {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgba(255,255,255,.5);
+    margin:10px;
+}
+#login {
+    border: 1px solid #4e8cb6;
+    background-color: transparent;
+    color: white;
+    margin: 8px;
+    font-size: 15px;
+}
+.piano {
+    border: 1px solid #7BBC00;
+    background-color: #7BBC00;
+    color: white;
+    margin:10px;
+    font-size:15px;
+}
+button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+#jumbo {
+    width: 50%;
+    position: relative;
+    top:70px;
+}
+h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+img {
+    width: 700px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
